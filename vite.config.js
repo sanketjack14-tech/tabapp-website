@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/tabapp-website/',
+  base: '/', // Root path for custom domain tabapp.in
   plugins: [
     react(),
     tailwindcss()
